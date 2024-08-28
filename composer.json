@@ -1,6 +1,7 @@
 {
   "name": "llm-agents/agent-site-status-checker",
   "description": "Simple agent to check the status of a website",
+  "license": "MIT",
   "require": {
     "php": "^8.3",
     "llm-agents/agents": "^1.0",
