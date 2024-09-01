@@ -66,18 +66,18 @@ bootloader.
 **Here's how:**
 
 1. Open up your `app/src/Application/Kernel.php` file.
-2. In the `defineBootloaders()` method, add the bootloader like this:
+2. Add the bootloader like this:
    ```php
    public function defineBootloaders(): array
    {
        return [
            // ... other bootloaders ...
-           \LLM\Agents\Agent\SiteStatusChecker\Bootloader\SiteStatusCheckerBootloader::class,
+           \LLM\Agents\Agent\SiteStatusChecker\Integrations\Spiral\SiteStatusCheckerBootloader::class,
        ];
    }
    ```
 
-And that's it! Your Spiral app is now ready to use the Site Status Checker Agent.
+And that's it! Your Spiral app is now ready to use the agent.
 
 ## Want to help out? 🤝
 
