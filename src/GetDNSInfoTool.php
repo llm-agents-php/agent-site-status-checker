@@ -6,6 +6,8 @@ namespace App\Agents\SiteStatusChecker;
 
 namespace LLM\Agents\Agent\SiteStatusChecker;
 
+use LLM\Agents\Tool\PhpTool;
+
 /**
  * @extends PhpTool<GetDNSInfoInput>
  */

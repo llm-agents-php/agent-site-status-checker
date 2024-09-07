@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace LLM\Agents\Agent\SiteStatusChecker;
 
+use LLM\Agents\Tool\PhpTool;
+
 /**
  * @extends PhpTool<CheckSiteAvailabilityInput>
  */
